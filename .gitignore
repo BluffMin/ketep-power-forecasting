@@ -1,0 +1,22 @@
+# Large/local datasets
+data.csv
+load_hourly.csv
+dc_customers_2025*.csv
+
+# Generated experiment outputs
+exp_out/
+forecast_outputs_gpu/
+forecast_outputs_individual/
+lightning_logs/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local machine/editor files
+.DS_Store
+Thumbs.db
